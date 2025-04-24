@@ -3,4 +3,4 @@ class TodoList:
         self.tasks = []
 
     def add(self, task):
-        pass
+        self.tasks.append(task)
